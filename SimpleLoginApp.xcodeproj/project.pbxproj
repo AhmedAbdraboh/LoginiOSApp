@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		842E70291EBFAC39009F8F83 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 842E70281EBFAC39009F8F83 /* HomeViewController.m */; };
+		842E702D1EBFBF0E009F8F83 /* ForgotPasswordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 842E702C1EBFBF0E009F8F83 /* ForgotPasswordViewController.m */; };
+		842E70311EBFBF40009F8F83 /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 842E70301EBFBF40009F8F83 /* RegisterViewController.m */; };
+		842E70351EBFBF77009F8F83 /* ChangePasswordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 842E70341EBFBF77009F8F83 /* ChangePasswordViewController.m */; };
 		844138BD1EBBC76600FF347D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 844138BC1EBBC76600FF347D /* main.m */; };
 		844138C01EBBC76600FF347D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 844138BF1EBBC76600FF347D /* AppDelegate.m */; };
 		844138C31EBBC76600FF347D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 844138C21EBBC76600FF347D /* ViewController.m */; };
@@ -17,6 +21,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		842E70271EBFAC39009F8F83 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		842E70281EBFAC39009F8F83 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		842E702B1EBFBF0E009F8F83 /* ForgotPasswordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ForgotPasswordViewController.h; sourceTree = "<group>"; };
+		842E702C1EBFBF0E009F8F83 /* ForgotPasswordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ForgotPasswordViewController.m; sourceTree = "<group>"; };
+		842E702F1EBFBF40009F8F83 /* RegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterViewController.h; sourceTree = "<group>"; };
+		842E70301EBFBF40009F8F83 /* RegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterViewController.m; sourceTree = "<group>"; };
+		842E70331EBFBF77009F8F83 /* ChangePasswordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChangePasswordViewController.h; sourceTree = "<group>"; };
+		842E70341EBFBF77009F8F83 /* ChangePasswordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChangePasswordViewController.m; sourceTree = "<group>"; };
 		844138B81EBBC76500FF347D /* SimpleLoginApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleLoginApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		844138BC1EBBC76600FF347D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		844138BE1EBBC76600FF347D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -41,6 +53,42 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		842E70261EBFAB94009F8F83 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				842E70271EBFAC39009F8F83 /* HomeViewController.h */,
+				842E70281EBFAC39009F8F83 /* HomeViewController.m */,
+			);
+			name = Home;
+			sourceTree = "<group>";
+		};
+		842E702A1EBFAC46009F8F83 /* Forgot Password */ = {
+			isa = PBXGroup;
+			children = (
+				842E702B1EBFBF0E009F8F83 /* ForgotPasswordViewController.h */,
+				842E702C1EBFBF0E009F8F83 /* ForgotPasswordViewController.m */,
+			);
+			name = "Forgot Password";
+			sourceTree = "<group>";
+		};
+		842E702E1EBFBF15009F8F83 /* Register */ = {
+			isa = PBXGroup;
+			children = (
+				842E702F1EBFBF40009F8F83 /* RegisterViewController.h */,
+				842E70301EBFBF40009F8F83 /* RegisterViewController.m */,
+			);
+			name = Register;
+			sourceTree = "<group>";
+		};
+		842E70321EBFBF5D009F8F83 /* Change Password */ = {
+			isa = PBXGroup;
+			children = (
+				842E70331EBFBF77009F8F83 /* ChangePasswordViewController.h */,
+				842E70341EBFBF77009F8F83 /* ChangePasswordViewController.m */,
+			);
+			name = "Change Password";
+			sourceTree = "<group>";
+		};
 		844138AF1EBBC76500FF347D = {
 			isa = PBXGroup;
 			children = (
@@ -60,6 +108,10 @@
 		844138BA1EBBC76500FF347D /* SimpleLoginApp */ = {
 			isa = PBXGroup;
 			children = (
+				842E70321EBFBF5D009F8F83 /* Change Password */,
+				842E702E1EBFBF15009F8F83 /* Register */,
+				842E702A1EBFAC46009F8F83 /* Forgot Password */,
+				842E70261EBFAB94009F8F83 /* Home */,
 				844138BE1EBBC76600FF347D /* AppDelegate.h */,
 				844138BF1EBBC76600FF347D /* AppDelegate.m */,
 				844138C11EBBC76600FF347D /* ViewController.h */,
@@ -153,9 +205,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				842E702D1EBFBF0E009F8F83 /* ForgotPasswordViewController.m in Sources */,
+				842E70351EBFBF77009F8F83 /* ChangePasswordViewController.m in Sources */,
 				844138C31EBBC76600FF347D /* ViewController.m in Sources */,
 				844138C01EBBC76600FF347D /* AppDelegate.m in Sources */,
 				844138BD1EBBC76600FF347D /* main.m in Sources */,
+				842E70311EBFBF40009F8F83 /* RegisterViewController.m in Sources */,
+				842E70291EBFAC39009F8F83 /* HomeViewController.m in Sources */,
 				844138C91EBBC76700FF347D /* SimpleLoginApp.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -313,6 +369,7 @@
 				844138D41EBBC76800FF347D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
